@@ -1,14 +1,10 @@
+pdf-engine: xelatex
 project:
   title: "report"
   output-dir: "_output"
 
 standalone: true
 self-contained: true
-
-## Julia support
-# engine: julia
-# julia:
-#   exeflags: ["--project=../project"]
 
 ## Generic options
 lang: ru-RU
@@ -19,7 +15,6 @@ toc-depth: 2
 ## Crossref customization
 crossref:
   lof-title: "Список иллюстраций"
-  lot-title: "Список таблиц"
   lol-title: "Листинги"
 ## Bibliography
 bibliography:
@@ -27,40 +22,39 @@ bibliography:
 csl: _resources/csl/gost-r-7-0-5-2008-numeric.csl
 ## Formats
 format:
-  ### Docx output format
-  docx:
-    toc: true
-    number-sections: true
-    toc-depth: 2
-  ### Pdf output format
+### Pdf output format
   pdf:
-    # pdf-engine: xelatex
-    ### minted support
-    # filters:
-    #   - minted-quarto
     toc: true
     number-sections: true
     colorlinks: false
     toc-depth: 2
     lof: true # List of figures
-    lot: true # List of tables
-    #### Document
+#### Document
     documentclass: scrreprt
     papersize: a4
     fontsize: 12pt
     linestretch: 1.5
-    #### Language
+#### Language
     babel-lang: russian
     babel-otherlangs: english
-    #### Biblatex
+#### Biblatex
     cite-method: biblatex
-    biblio-style: gost-numeric
+    # biblio-style: gost-numeric
     biblatexoptions:
       - backend=biber
       - langhook=extras
       - autolang=other*
-    #### Misc options
+#### Misc options
     csquotes: true
     indent: true
-    include-in-header:
-      - file: _resources/tex/preamble.tex
+    header-includes: |
+      \usepackage{indentfirst}
+      \usepackage{float}
+      \floatplacement{figure}{H}
+      \usepackage{libertine}
+    # \usepackage[math,RM={Scale=0.94},SS={Scale=0.94},SScon={Scale=0.94},TT={Scale=MatchLowercase,FakeStretch=0.9},DefaultFeatures={Ligatures=Common}]{plex-otf}
+### Docx output format
+  docx:
+    toc: true
+    number-sections: true
+    toc-depth: 2
