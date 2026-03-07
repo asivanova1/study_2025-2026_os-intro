@@ -21,6 +21,10 @@ format:
     slide-number: true
     preview-links: auto
   pptx: default
+  beamer:
+    toc: true
+    toc-title: "Содержание"
+    number-sections: true
 ---
 
 # Докладчик
