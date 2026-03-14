@@ -1,20 +1,37 @@
 ---
-title: "Лабораторная работа №5"
-subtitle: "Менеджер паролей pass"
-author: "Иванова Анастасия Сергеевна"
-date: 2026-03-13
-lang: ru-RU
+author:
+  name: Иванова Анастасия Сергеевна
+  degrees: DSc
+  orcid: 0000-0002-0877-7063
+  email: 1132250427@rudn.ru
+  affiliation:
+    - name: Российский университет дружбы народов
+      country: Российская Федерация
+      postal-code: 117198
+      city: Москва
+      address: ул. Миклухо-Маклая, д. 6
+title: "Лабораторная работа №2"
+subtitle: "Системы контроля версий (Git)"
+license: CC BY
+date: today
+date-format: "YYYY-MM-DD"
 format:
-  pdf:
-    documentclass: article
-    papersize: a4
-    fontsize: 12pt
-    toc: false
-    number-sections: false
-    geometry: margin=2cm
-    mainfont: "Liberation Serif"
-    sansfont: "Liberation Sans"
-    monofont: "Liberation Mono"
+  revealjs:
+    theme: default
+    slide-number: true
+    preview-links: auto
+  pptx: default
+  beamer:
+    toc: true
+    toc-title: "Содержание"
+    number-sections: true
+    pdf-engine: lualatex
+    mainfont: Liberation Serif
+    sansfont: Liberation Sans
+    monofont: Liberation Mono
+    lang: ru-RU
+    babel-lang: russian
+    babel-otherlangs: english
 ---
 
 # Докладчик
