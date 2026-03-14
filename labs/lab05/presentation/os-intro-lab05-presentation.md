@@ -10,7 +10,7 @@ author:
       postal-code: 117198
       city: Москва
       address: ул. Миклухо-Маклая, д. 6
-title: "Лабораторная работа №2"
+title: "Лабораторная работа №5"
 subtitle: "Системы контроля версий (Git)"
 license: CC BY
 date: today
