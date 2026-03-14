@@ -11,7 +11,7 @@ author:
       city: Москва
       address: ул. Миклухо-Маклая, д. 6
 title: "Лабораторная работа №5"
-subtitle: "Системы контроля версий (Git)"
+subtitle: "Менеджер паролей `pass`"
 license: CC BY
 date: today
 date-format: "YYYY-MM-DD"
