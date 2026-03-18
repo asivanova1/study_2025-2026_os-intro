@@ -19,7 +19,6 @@ toc-depth: 2
 ## Crossref customization
 crossref:
   lof-title: "Список иллюстраций"
-  lot-title: "Список таблиц"
   lol-title: "Листинги"
 ## Bibliography
 bibliography:
@@ -43,7 +42,6 @@ format:
     colorlinks: false
     toc-depth: 2
     lof: true # List of figures
-    lot: true # List of tables
     #### Document
     documentclass: scrreprt
     papersize: a4
