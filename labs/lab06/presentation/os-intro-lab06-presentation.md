@@ -10,8 +10,8 @@ author:
       postal-code: 117198
       city: Москва
       address: ул. Миклухо-Маклая, д. 6
-title: "Лабораторная работа №5"
-subtitle: "Менеджер паролей `pass`"
+title: "Лабораторная работа №6"
+subtitle: "по курсу: Архитектура компьютера и опреационные системы"
 license: CC BY
 date: today
 date-format: "YYYY-MM-DD"
