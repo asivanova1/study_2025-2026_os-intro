@@ -1,6 +1,6 @@
 project:
   title: "presentation"
-  output-dir: "_output"
+  output-dir: "output"
 
 standalone: true
 self-contained: true
@@ -8,7 +8,6 @@ slide-level: 2
 lang: ru-RU
 crossref:
   lof-title: Список иллюстраций
-  lot-title: Список таблиц
   lol-title: Листинги
 format: # Formats
   beamer: # Pdf output format
